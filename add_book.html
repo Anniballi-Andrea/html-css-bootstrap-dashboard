@@ -62,20 +62,20 @@
                 </div>
                 <div class="col-6 mt-3">
                     <p><strong>Nome Autore</strong></p>
-                    <input type="text" placeholder="Inserisci il nome dell'autore">
+                    <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore">
                 </div>
                 <div class="col-6 mt-3">
                     <p><strong>Cognome Autore</strong></p>
-                    <input type="text" placeholder="Inserisci il Cognome dell'autore">
+                    <input type="text" class="form-control" placeholder="Inserisci il Cognome dell'autore">
                 </div>
                 <div class="col-12 mt-3">
                     <p><strong>Titolo</strong></p>
-                    <input type="text" placeholder="Inserisci il titolo del libro in italiano">
+                    <input type="text" class="form-control" placeholder="Inserisci il titolo del libro in italiano">
                 </div>
                 <div class="col-sm-12 col-lg-4 mt-3">
                     <p><strong>genere</strong></p>
-                    <select name="scelta" id="">
-                        <option value="scegli">Scegli il genere</option>
+                    <select name="scelta" class="form-select" id="">
+                        <option selected>Scegli il genere</option>
                         <option value="scegli">Fantasy</option>
                         <option value="scegli">Giallo</option>
                         <option value="scegli">Storico</option>
@@ -85,26 +85,27 @@
                 </div>
                 <div class="col-sm-12 col-lg-4 mt-3">
                     <p><strong>Anno di publicazione</strong></p>
-                    <input type="number" placeholder="Inserisci l'anno">
+                    <input type="number" class="form-control" placeholder="Inserisci l'anno">
                 </div>
                 <div class="col-sm-12 col-lg-4 mt-3">
                     <p><strong>ISBN#</strong></p>
-                    <input type="number" placeholder="Inserisci il codice ISBN#">
+                    <input type="number" class="form-control" placeholder="Inserisci il codice ISBN#">
                 </div>
-                <div class="col-12 mt-3">
+                <div class="col-12 mt-4 border-top">
+                    
                      
-                    <p><strong>Note</strong></p>
-                    <textarea name="name" rows="4" cols="150" id="" placeholder="Inserisci eventuali note sul libro">
+                    <p class="mt-3"><strong>Note</strong></p>
+                    <textarea class="form-control" name="name"  id="" placeholder="Inserisci eventuali note sul libro">
 
                     </textarea>
                     
                    
                 </div>
-                <div class="col-12 mt-3">
-                    <input type="checkbox"> <strong>Disponibile anche in digitale</strong>
+                <div class="col-12 mt-4">
+                    <input class="form-check-input" type="checkbox"> <strong>Disponibile anche in digitale</strong>
                 </div>
                 <div class="col-12 mt-3">
-                    <button> Aggiungi Libro</button>
+                    <button type="button" class="btn btn-primary"> Aggiungi Libro</button>
                 </div>
 
             </div>
